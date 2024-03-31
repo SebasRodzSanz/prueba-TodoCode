@@ -1,0 +1,11 @@
+class Mi_Clase_uno{
+
+	public $hola ="saludos";
+
+	function __construct(){
+		echo ("soy constructor");
+	}
+	public function _saludar(){
+		echo $this->hola;
+	}
+}
